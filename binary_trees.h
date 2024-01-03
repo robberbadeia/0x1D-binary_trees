@@ -53,4 +53,6 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 /* Function that checks if a binary tree is full */
 int binary_tree_is_full(const binary_tree_t *tree);
+/* Function that checks if a binary tree is perfect */
+int binary_tree_is_perfect(const binary_tree_t *tree);
 #endif
